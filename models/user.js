@@ -49,3 +49,6 @@ UserSchema.methods.generateJwt = function () {
 module.exports = mongoose.model('User', UserSchema, 'User');
 
 
+
+
+
