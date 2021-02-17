@@ -1,5 +1,5 @@
 
-var product = require('../model/product');
+var product = require('../models/product');
 
 module.exports.getProduct = async(req, res)=>{
 try

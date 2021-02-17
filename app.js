@@ -3,7 +3,6 @@ var express = require('express');
 var passport = require('passport');
 require('dotenv').config()
 require('./models/db');
-require('./config/passport');
 var routesApi = require('./route/index');
 
 var app = express();
